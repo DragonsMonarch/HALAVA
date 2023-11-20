@@ -1,4 +1,6 @@
-package org.example;
+package org.example.Network;
+
+import org.example.Interface.Terminal;
 
 import java.io.*;
 import java.net.Socket;

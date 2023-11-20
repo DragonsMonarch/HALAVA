@@ -1,7 +1,7 @@
-package org.example.server;
+package org.example.Network.server;
 
 
-import org.example.Terminal;
+import org.example.Interface.Terminal;
 
 import java.io.IOException;
 import java.net.Socket;

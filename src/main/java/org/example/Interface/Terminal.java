@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Interface;
 
 import java.awt.*;
 import java.util.Scanner;
@@ -51,7 +51,8 @@ public class Terminal {
         System.out.println(GREEN + " Для вызова меню воспользуетесь\n" +
                            " формулировкой:");
         System.out.println(GREEN + "     /menu -[command] -[option]");
-        System.out.println(GREEN + " Для просмотраЫ всех комманд пропишите:");
+        System.out.println(GREEN + " Для просмотра всех комманд пропишите:");
+        System.out.println(GREEN + " /menu");
         parsers2();
     }
     public static void parsers(){System.out.println(GREEN + "========================================");}

@@ -1,9 +1,8 @@
-package org.example.server;
-import org.example.Terminal;
+package org.example.Network.server;
+import org.example.Interface.Terminal;
 
 import java.io.*;
 import java.net.Socket;
-import java.util.LinkedList;
 
 public class ServerClientThread extends Thread{
     private Socket clintThread;

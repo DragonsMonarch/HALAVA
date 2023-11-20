@@ -1,6 +1,8 @@
 package org.example;
 
-import org.example.server.Server;
+import org.example.Interface.Terminal;
+import org.example.Network.Client;
+import org.example.Network.server.Server;
 
 import java.io.IOException;
 import java.util.Scanner;
